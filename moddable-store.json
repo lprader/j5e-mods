@@ -1,5 +1,11 @@
 {
 	"tech.moddable.j5e-host": {
+		"app": {
+			"title": "J5e Host",
+			"author": "Peter Hoddie",
+			"description": "Host for applications that J5e",
+			"home": "https://github.com/lprader/j5e-mods/tree/master/host"
+		},
 		"mods": [
 			{
 				"path": "button-led",
