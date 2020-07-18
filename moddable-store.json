@@ -1,0 +1,24 @@
+{
+	"tech.moddable.j5e-host": {
+		"mods": [
+			{
+				"path": "button-led",
+				"author": "Donovan Buck",
+				"title": "Button/LED",
+				"description": "Tap a button to turn an LED on/off. Hold the button to blink the LED."
+			},
+			{
+				"path": "led-blink",
+				"author": "Donovan Buck",
+				"title": "LED blink",
+				"description": "Blink an LED"
+			},
+			{
+				"path": "led-pulse",
+				"author": "Donovan Buck",
+				"title": "LED pulse",
+				"description": "Pulse an LED on and off"
+			},
+		]
+	},
+}
