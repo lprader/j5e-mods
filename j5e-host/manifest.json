@@ -16,6 +16,8 @@
 		"$(LIB)/event/manifest.json",
 		"$(LIB)/fn/manifest.json",
 		"$(LIB)/led/manifest.json",
+		"$(LIB)/light/manifest.json",
+		"$(LIB)/relay/manifest.json",
 		"$(LIB)/rgb/manifest.json",
 		"$(LIB)/sensor/manifest.json",
 		"$(LIB)/servo/manifest.json",
