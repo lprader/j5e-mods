@@ -37,6 +37,77 @@
 					"com.moddable.one"
 				]
 			},
+			{
+				"path": "light-sensor",
+				"author": "Donovan Buck",
+				"title": "Light sensor",
+				"description": "Change the brightness of an LED based on light sensor readings.",
+				"devices": [
+					"com.nodemcu.esp8266",
+					"com.moddable.one"
+				]
+			},
+			{
+				"path": "relay-blink",
+				"author": "Donovan Buck",
+				"title": "Relay blink",
+				"description": "Toggle a relay on and off.",
+				"devices": [
+					"com.nodemcu.esp8266",
+					"com.moddable.one"
+				]
+			},
+			{
+				"path": "rgb-blink",
+				"author": "Donovan Buck",
+				"title": "RGB blink",
+				"description": "Blink an RGB LED.",
+				"devices": [
+					"com.nodemcu.esp8266",
+					"com.moddable.one"
+				]
+			},
+			{
+				"path": "rgb-pulse",
+				"author": "Donovan Buck",
+				"title": "RGB pulse",
+				"description": "Pulse an RGB LED.",
+				"devices": [
+					"com.nodemcu.esp8266",
+					"com.moddable.one"
+				]
+			},
+			{
+				"path": "rgb-wheel",
+				"author": "Donovan Buck",
+				"title": "RGB wheel",
+				"description": "Animate an RGB LED.",
+				"devices": [
+					"com.nodemcu.esp8266",
+					"com.moddable.one"
+				]
+			},
+			{
+				"path": "servo-sweep",
+				"author": "Donovan Buck",
+				"title": "Servo sweep",
+				"description": "Sweep a servo motor back and forth.",
+				"devices": [
+					"com.nodemcu.esp8266",
+					"com.moddable.one"
+				]
+			},
+			{
+				"path": "switch-led",
+				"author": "Donovan Buck",
+				"title": "Switch/LED",
+				"description": "Open/close a switch to turn an LED on/off.",
+				"devices": [
+					"com.nodemcu.esp8266",
+					"com.moddable.one"
+				]
+			},
+
 		]
 	},
 }

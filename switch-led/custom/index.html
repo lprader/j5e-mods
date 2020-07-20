@@ -1,0 +1,24 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link type="text/css" rel="stylesheet" href="/assets/custom.css"/>
+</head>
+<body>
+	<div class="line"><label>Switch pin:</label><input id="SWITCH_PIN_NUMBER" type="text" value="14"></input></div>
+	<div class="line"><label>LED pin:</label><input id="LED_PIN_NUMBER" type="text" value="2"></input></div>
+	<script>
+		function getData() {
+			return {
+				"main.js": {
+					SWITCH_PIN_NUMBER: document.getElementById("SWITCH_PIN_NUMBER").value,
+					LED_PIN_NUMBER: document.getElementById("LED_PIN_NUMBER").value,
+				},
+			};
+		}
+		function setData(data) {
+			const file = data["main.js"];
+			document.getElementById("SWITCH_PIN_NUMBER").value = file.SWITCH_PIN_NUMBER;
+			document.getElementById("LED_PIN_NUMBER").value = file.LED_PIN_NUMBER;
+		}
+	</script>
+</body>

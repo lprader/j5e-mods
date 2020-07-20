@@ -1,0 +1,27 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link type="text/css" rel="stylesheet" href="/assets/custom.css"/>
+</head>
+<body>
+	<div class="line"><label>R pin:</label><input id="R_PIN_NUMBER" type="text" value="12"></input></div>
+	<div class="line"><label>G pin:</label><input id="G_PIN_NUMBER" type="text" value="13"></input></div>
+	<div class="line"><label>B pin:</label><input id="B_PIN_NUMBER" type="text" value="14"></input></div>
+	<script>
+		function getData() {
+			return {
+				"main.js": {
+					R_PIN_NUMBER: document.getElementById("R_PIN_NUMBER").value,
+					G_PIN_NUMBER: document.getElementById("G_PIN_NUMBER").value,
+					B_PIN_NUMBER: document.getElementById("B_PIN_NUMBER").value
+				},
+			};
+		}
+		function setData(data) {
+			const file = data["main.js"];
+			document.getElementById("R_PIN_NUMBER").value = file.R_PIN_NUMBER;
+			document.getElementById("G_PIN_NUMBER").value = file.G_PIN_NUMBER;
+			document.getElementById("B_PIN_NUMBER").value = file.B_PIN_NUMBER;
+		}
+	</script>
+</body>
