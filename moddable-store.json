@@ -11,19 +11,31 @@
 				"path": "button-led",
 				"author": "Donovan Buck",
 				"title": "Button/LED",
-				"description": "Tap a button to turn an LED on/off. Hold the button to blink the LED."
+				"description": "Tap a button to turn an LED on/off. Hold the button to blink the LED.",
+				"devices": [
+					"com.nodemcu.esp8266",
+					"com.moddable.one"
+				]	
 			},
 			{
 				"path": "led-blink",
 				"author": "Donovan Buck",
 				"title": "LED blink",
-				"description": "Blink an LED"
+				"description": "Blink an LED",
+				"devices": [
+					"com.nodemcu.esp8266",
+					"com.moddable.one"
+				]
 			},
 			{
 				"path": "led-pulse",
 				"author": "Donovan Buck",
 				"title": "LED pulse",
-				"description": "Pulse an LED on and off"
+				"description": "Pulse an LED on and off",
+				"devices": [
+					"com.nodemcu.esp8266",
+					"com.moddable.one"
+				]
 			},
 		]
 	},
