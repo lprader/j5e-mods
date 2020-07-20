@@ -1,8 +1,8 @@
 import Button from "j5e/button";
 import LED from "j5e/led";
 
-const button = await new Button({pin: 0, invert: true});
-const led = await new LED(2);
+const button = await new Button({pin: BUTTON_PIN_NUMBER, invert: true});
+const led = await new LED(LED_PIN_NUMBER);
 
 button.on("open", function() {
   console.log("off");
