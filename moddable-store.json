@@ -14,7 +14,8 @@
 				"description": "Tap a button to turn an LED on/off. Hold the button to blink the LED.",
 				"devices": [
 					"com.nodemcu.esp8266",
-					"com.moddable.one"
+					"com.moddable.one",
+					"com.moddable.three"
 				]	
 			},
 			{
@@ -24,7 +25,8 @@
 				"description": "Blink an LED",
 				"devices": [
 					"com.nodemcu.esp8266",
-					"com.moddable.one"
+					"com.moddable.one",
+					"com.moddable.three"
 				]
 			},
 			{
@@ -34,7 +36,8 @@
 				"description": "Pulse an LED on and off",
 				"devices": [
 					"com.nodemcu.esp8266",
-					"com.moddable.one"
+					"com.moddable.one",
+					"com.moddable.three"
 				]
 			},
 			{
@@ -44,7 +47,8 @@
 				"description": "Change the brightness of an LED based on light sensor readings.",
 				"devices": [
 					"com.nodemcu.esp8266",
-					"com.moddable.one"
+					"com.moddable.one",
+					"com.moddable.three"
 				]
 			},
 			{
@@ -54,7 +58,8 @@
 				"description": "Toggle a relay on and off.",
 				"devices": [
 					"com.nodemcu.esp8266",
-					"com.moddable.one"
+					"com.moddable.one",
+					"com.moddable.three"
 				]
 			},
 			{
@@ -64,7 +69,8 @@
 				"description": "Blink an RGB LED.",
 				"devices": [
 					"com.nodemcu.esp8266",
-					"com.moddable.one"
+					"com.moddable.one",
+					"com.moddable.three"
 				]
 			},
 			{
@@ -74,7 +80,8 @@
 				"description": "Pulse an RGB LED.",
 				"devices": [
 					"com.nodemcu.esp8266",
-					"com.moddable.one"
+					"com.moddable.one",
+					"com.moddable.three"
 				]
 			},
 			{
@@ -84,7 +91,8 @@
 				"description": "Animate an RGB LED.",
 				"devices": [
 					"com.nodemcu.esp8266",
-					"com.moddable.one"
+					"com.moddable.one",
+					"com.moddable.three"
 				]
 			},
 			{
@@ -94,7 +102,8 @@
 				"description": "Sweep a servo motor back and forth.",
 				"devices": [
 					"com.nodemcu.esp8266",
-					"com.moddable.one"
+					"com.moddable.one",
+					"com.moddable.three"
 				]
 			},
 			{
@@ -104,7 +113,8 @@
 				"description": "Open/close a switch to turn an LED on/off.",
 				"devices": [
 					"com.nodemcu.esp8266",
-					"com.moddable.one"
+					"com.moddable.one",
+					"com.moddable.three"
 				]
 			},
 
