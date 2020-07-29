@@ -3,7 +3,7 @@
 		"app": {
 			"title": "J5e Host",
 			"author": "Peter Hoddie",
-			"description": "Host for applications that use <a href=\"https://dtex.github.io/j5e/\">J5e</a> (Johnny Five for Embedded Systems)",
+			"description": "Host for applications that use <a target='_blank' href='https://dtex.github.io/j5e/'>J5e</a> (Johnny Five for Embedded Systems)",
 			"home": "https://github.com/lprader/j5e-mods/tree/master/host"
 		},
 		"mods": [
