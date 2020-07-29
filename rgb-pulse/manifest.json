@@ -1,8 +1,5 @@
 {
 	"modules": {
-		"*": "./main"
-	},
-	"run": {
-		"example": "main"
+		"example": "./main"
 	}
 }

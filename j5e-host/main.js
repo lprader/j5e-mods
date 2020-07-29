@@ -13,6 +13,6 @@ export default function () {
 		if (Mod.has("example"))
 			Mod.load("example");
 	} else {
-		trace("j5e flashed. Ready to install mod.\n");
+		trace("J5e app running. Ready to install mod.\n");
 	}
 }
