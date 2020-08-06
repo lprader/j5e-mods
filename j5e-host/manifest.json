@@ -25,6 +25,9 @@
 		"$(LIB)/withinable/manifest.json"
 	],
 	"modules": {
+		"~": [
+			"$(BUILD)/devices/esp/setup/network",
+		],
 		"*": [
 			"./main",
 			"$(MODDABLEPROJECTS)/examples/mods/mod/*"
