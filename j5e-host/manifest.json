@@ -1,6 +1,6 @@
 {
 	"build": {
-		"LIB": "$(j5e)/lib",
+		"LIB": "$(j5e)/lib"
 	},
 	"defines": {
 		"XS_MODS": 1
@@ -26,7 +26,7 @@
 	],
 	"modules": {
 		"~": [
-			"$(BUILD)/devices/esp/setup/network",
+			"$(BUILD)/devices/esp/setup/network"
 		],
 		"*": [
 			"./main",
